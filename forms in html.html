@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <form method="POST" action="Details.html">
+            <fieldset>
+                <legend>Enter Your Details</legend>
+            <p>Name :</p>
+            <input type="text" name="user name" placeholder="Name"/><br/>
+            <P>Age :</P>
+            <input type="number" name="Age" placeholder="Enter Your Age"/><br/>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male" >male
+            <input type="radio" name="gender" value="female" >female<br/>
+            <p>Email :</p>
+            <input type="email" name="email" placeholder="Enter Your Email"/><br/>
+            <p>Password :</p>
+            <input type="password" placeholder="password" name="Enter password"/><br/>
+            <p>About YourSelf :</p>
+            <textarea>
+            </textarea><br/>
+            <p>Programming Languages Known :<p/>
+                <select name="dropdown">
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                    <option value="C++">C++</option>
+                    <option value="HTML">HTML</option>
+                </select><br/>
+                <p>Favorite Subject :</p>
+                <input type="checkbox" name="Maths" value="ON"/>Maths<br/>
+                <input type="checkbox" name="Science" value="ON"/> Science<br/>
+                <p>Upload Image :</p>
+                <input type="file" name="file upload" accept="image/*"/><br/>
+                <p>Check Given Info Again and Submit :</p>
+                <a href="Details.html"><input type="button" name="Submit" value="submit"/></a><br/>
+            </fieldset>
+        </form>
+    </body>
+</html>
